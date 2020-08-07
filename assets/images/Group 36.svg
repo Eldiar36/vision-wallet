@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186" height="186" viewBox="0 0 186 186">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #1b66ff;
+      }
+
+      .cls-1 {
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-1" cx="93" cy="93" r="93"/>
+  <circle id="Ellipse_3_copy_2" data-name="Ellipse 3 copy 2" class="cls-2" cx="93" cy="93" r="71"/>
+  <circle id="Ellipse_3_copy_3" data-name="Ellipse 3 copy 3" class="cls-2" cx="93" cy="93" r="49"/>
+  <circle class="cls-3" cx="93" cy="93" r="28"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="88" y="86" width="12" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAAcUlEQVQoka2SuwmAQBAF35kLFmJiN0aCrViAmRWJrQhGNqCMrCImfm7BCZcd2M8T0AArMACFvgAWLkzsgOxR454JqIAQK5z0QO4RDBu5BVLrD1b5XPRglFR7BGNOHM07HsFGKt1L/3bW18e5oxEfPkkbC44sNGftUuUAAAAASUVORK5CYII="/>
+</svg>

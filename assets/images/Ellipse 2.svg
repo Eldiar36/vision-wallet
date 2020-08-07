@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00cc89;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="11" cy="11" r="11"/>
+  <image id="Vector_Smart_Object" data-name="Vector Smart Object" x="6" y="7" width="10" height="7" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAYAAAAxrNxjAAAAYklEQVQYlX3OIQ6AMBBE0SFNKvA4DsqFUChQCILoORDc5JOFkrRNYdzOvmy20U8AL2mStNrggK7khoCFJ7MVI3AAfYJaYIvIsLdyiMWNI9ozlFx48QmEKqrgb1Rg+9llC0kXVDaKnL8SIHQAAAAASUVORK5CYII="/>
+</svg>

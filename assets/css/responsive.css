@@ -1,0 +1,679 @@
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    #home .box-img:after {
+        display: none;
+    }
+    #home .box-body {
+        margin-top: 35px;
+        margin-bottom: 125px;
+    }
+    #home .box-img .video{
+        width: auto;
+        bottom: -87px;
+    }
+    .section-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #about .about-info p {
+        margin-bottom: 30px;
+    }
+    #tariffs {
+        padding: 60px 0 0 0;
+    }
+    #tariffs .box {
+        margin-bottom: 30px;
+    }
+    #currency {
+        padding: 50px 0 40px 0;
+    }
+    #currency .row-1 {
+        flex-wrap: wrap;
+    }
+    #currency .row-1 .item {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    #investments {
+        padding: 65px 0;
+    }
+    #investments .box {
+        margin-bottom: 30px;
+    }
+    #investments .box-footer {
+        margin: 20px 0;
+        padding: 0;
+    }
+    #investments .box-footer .text {
+        width: 280px;
+    }
+    #investments .button {
+        margin-top: 30px;
+    }
+    #self-finance .box {
+        margin-bottom: 30px;
+    }
+    #self-finance .box img {
+        height: auto;
+    }
+    #self-finance .box .text {
+        margin: 25px 30px 30px 30px;
+    }
+    #self-finance .box .button {
+        height: 58px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    #clients {
+        padding: 30px 0 55px 0;
+    }
+    #clients .client-num {
+        font-size: 60px;
+    }
+    #clients .client-box .box-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #clients .client-box .box-header .text {
+        text-align: center;
+        width: 280px;
+    }
+    #clients .box-review {
+        margin-top: 30px;
+        padding: 20px 25px 30px 25px;
+    }
+    #clients .partners {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #clients .partners img {
+        width: 30%;
+        margin-bottom: 50px;
+    }
+    #why-vision .box {
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+    #why-vision .program-box .img-box {
+        margin-top: 20px;
+    }
+    #banner .img {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #questions {
+        padding: 60px 0;
+    }
+    footer .box-two {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .box-body .item {
+        justify-content: center;
+    }
+    footer .footer-nav {
+        flex-direction: column;
+    }
+    footer .footer-nav .copyright {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    #home {
+        padding: 30px 0 50px 0;
+    }
+
+    #home .box h1 {
+        font-size: 35px;
+        line-height: 39px;
+    }
+
+    #home .box .subtitle {
+        margin: 15px 0 20px 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #home .oc {
+        margin-top: 20px;
+    }
+
+    #home .box-body {
+        margin-top: 20px;
+        margin-bottom: 110px;
+    }
+
+    #home .box-body .title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    #home .box-body .item {
+        margin-bottom: 15px;
+    }
+
+    #home .box-body .item img {
+        margin-right: 15px;
+    }
+
+    #home .box-body .item p {
+        font-size: 15px;
+    }
+
+    #home .box-body .link {
+        margin: 30px 0 40px 0;
+    }
+
+    #home .box-body .link .link-box .text p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #525a6d;
+        margin-bottom: 6px;
+    }
+
+    #home .box-body .link .link-box:first-child {
+        margin-right: 30px;
+    }
+
+    #home .box-body .link .link-box .img {
+        width: 64px;
+        height: 64px;
+    }
+
+    #home .box-body .link .link-box .img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #home .box-body .link .link-box .text a {
+        color: #1b66ff;
+        font-size: 15px;
+    }
+
+    #home .btn-group a {
+        height: 48px;
+        width: 250px;
+    }
+
+    #home .box-img .video .text a {
+        font-size: 15px;
+    }
+
+    #home .box-img .video .text p {
+        font-size: 15px;
+    }
+
+    #home .box-img .video img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #home .box-img .video {
+        width: auto;
+        bottom: 0;
+    }
+
+    .section-title {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+
+    #about .about-info p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    #about .about-info p:first-child {
+        margin-bottom: 30px;
+    }
+
+    #about .box .item img {
+        margin-right: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #about .box .item p {
+        font-size: 18px;
+    }
+
+    #about .box .item {
+        width: 60%;
+        margin: 0 auto 30px auto;
+        padding: 15px 25px
+    }
+
+    #about .box .button {
+        padding: 15px 0;
+        border-radius: 4px;
+        width: 290px;
+        margin: 0 auto;
+    }
+
+    #tariffs {
+        padding: 40px 0 0 0;
+    }
+
+    #tariffs .box .box-header .title {
+        color: #ffffff;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #tariffs .box .box-header .percent {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #tariffs .box .box-header .percent p {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    #tariffs .box .box-header .percent span {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    #tariffs .box-body {
+        padding: 20px 25px 20px 25px
+    }
+
+    #tariffs .box .box-header {
+        padding: 15px 0 45px 0;
+    }
+
+    #tariffs .box-body .title, #tariffs .box-body .subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #tariffs .box-body .subtitle {
+        margin: 10px 0 15px 0;
+    }
+
+    #tariffs .box-body .description {
+        color: #757c8a;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #tariffs .box-body .button {
+        margin-top: 20px;
+        background: #00cc89;
+        padding: 15px
+    }
+    #currency {
+        padding: 40px 0 40px 0;
+    }
+    #investments {
+        padding: 30px 0;
+    }
+    #investments .section-title {
+        margin-bottom: 30px;
+    }
+    #investments .box .box-img .img-wrap {
+        position: relative;
+        width: 100px;
+        height: 100px;
+    }
+    #investments .box .box-img .img-wrap:after {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        right: -13px;
+    }
+    #investments .box .title {
+        font-size: 17px;
+        line-height: 22px;
+        margin: 20px 0 10px 0;
+    }
+    #investments .box .subtitle {
+        color: #222426;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #investments .box .description {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    #investments .box-footer img {
+        margin-right: 22px;
+        width: 60px;
+        height: 60px;
+    }
+    #investments .box-footer .text .title {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    #investments .box-footer .text span {
+        font-size: 14px;
+        padding: 4px 6px 4px 6px;
+    }
+    #investments .button {
+        margin-top: 0;
+    }
+    #self-finance .box img {
+        height: 200px;
+    }
+    #self-finance .box .text {
+        color: #222426;
+        font-size: 15px;
+        line-height: 22px;
+        margin: 20px 20%;
+    }
+    #self-finance .box .button {
+        height: 48px;
+        width: 290px;
+    }
+    #clients {
+        padding: 0 0 35px 0;
+    }
+    #clients .client-num {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    #clients .section-title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    #clients .client-box .box-header .num {
+        font-size: 25px;
+    }
+    #clients .client-box .box-header .text {
+        color: #222426;
+        font-size: 15px;
+        padding-top: 0;
+        line-height: 21px;
+        width: auto;
+    }
+    #clients .box-review .box-img {
+        margin-bottom: 10px;
+    }
+    #clients .box-review {
+        margin-top: 30px;
+        padding: 20px 45px 30px 45px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #clients .box-review .text {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    #clients .box-review .text.two {
+        margin-bottom: 10px;
+    }
+    #clients .box-review .text.last {
+        margin-bottom: 10px;
+    }
+    #clients .partners img {
+        width: 13%;
+        margin-bottom: 0;
+    }
+    #why-vision .box {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    #why-vision .box .title {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    #why-vision .box .subtitle {
+        margin-bottom: 20px;
+    }
+    #why-vision .box .subtitle.last {
+        margin-bottom: 20px;
+    }
+    #why-vision .program-box .text-box .title {
+        color: #222426;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    #why-vision .program-box .text-box .subtitle {
+        color: #525a6d;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+    #why-vision .program-box .text-box .level {
+        font-size: 14px;
+    }
+    #why-vision .program-box .text-box .vip {
+        margin-top: 18px;
+        font-size: 17px;
+        font-weight: 800;
+        margin-bottom: 15px
+    }
+    #why-vision .program-box .button {
+        width: 250px;
+        height: 48px;
+        margin-top: 30px;
+    }
+    #why-vision .program-box .img-box img {
+        height: 300px;
+    }
+    #questions #accordion .question {
+        position: relative;
+        margin: 20px 0;
+        border-radius: 13px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 10px 30px 0 rgba(58, 58, 73, 0.1);
+        padding: 18px 25px 18px 25px
+    }
+    .accordion .ui-accordion-header-icon {
+        right: 25px;
+        width: 35px;
+        height: 35px
+    }
+    .accordion.ui-accordion-header-active .ui-accordion-header-icon {
+        right: 25px;
+        width: 35px;
+        height: 35px
+    }
+    #questions {
+        padding: 40px 0;
+    }
+    #banner .banner-text {
+        padding: 30px 30px;
+    }
+    #banner .banner-text .title {
+        font-size: 24px;
+        color: #FFffff;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    #banner .oc {
+        margin-top: 25px;
+    }
+    #banner .img img {
+        height: 250px;
+        margin-top: -30px;
+    }
+    footer .box .logo p {
+        font-size: 16px;
+        color: #979faf;
+        margin: 15px 0;
+    }
+    footer .box ul li {
+        margin-bottom: 4px;
+    }
+    footer .box ul li a {
+        font-size: 14px;
+    }
+    footer .box-two .box-header {
+        width: 60%;
+    }
+}
+@media (max-width: 600px) {
+    #home .box-body .btn-group {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #home .btn-group a:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    #questions #accordion .question p {
+        font-size: 13px;
+    }
+    #questions #accordion .asnwer-content {
+        padding: 20px;
+    }
+    #questions #accordion .asnwer-content p {
+        font-size: 13px;
+    }
+    footer .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer .box ul {
+        width: 200px;
+    }
+    footer .box .logo {
+        margin-bottom: 20px;
+    }
+    footer .footer-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-nav ul li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    footer .footer-nav ul li:after {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    #home .box h1 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    #home .box .subtitle {
+        margin: 10px 0 15px 0;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    #home .oc .item {
+        width: 140px;
+        height: 40px;
+    }
+    #home .oc .item img{
+        width: 100px;
+        height: 23px;
+    }
+    #home .box-body .link {
+        margin: 20px 0 30px 0;
+        flex-direction: column;
+    }
+    .section-title {
+        font-size: 27px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    #about .about-info p:first-child {
+        margin-bottom: 15px;
+    }
+    #about {
+        padding: 30px 0 0 0;
+    }
+    #about .box .item {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 15px 25px;
+    }
+    #about .box .button {
+        width: 280px;
+    }
+    #self-finance .box .button {
+        height: 48px;
+        width: 260px;
+    }
+    #clients .box-review {
+        margin-top: 30px;
+        padding: 20px 30px 20px 30px;
+    }
+    #clients .partners img {
+        width: 30%;
+        margin-bottom: 25px;
+    }
+    #why-vision .program-box {
+        padding: 20px 25px 0 25px;
+    }
+    #why-vision .program-box .text-box .title {
+        font-size: 18px;
+    }
+    #why-vision .program-box .text-box .vip {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+    #why-vision .program-box .button {
+        width: 100%;
+    }
+    #questions #accordion .question {
+        padding: 12px 40px 12px 15px;
+    }
+    #questions {
+        padding: 30px 0;
+    }
+    .accordion.ui-accordion-header-active .ui-accordion-header-icon {
+        right: 15px;
+        width: 28px;
+        top: 8px;
+        height: 28px;
+    }
+    .accordion .ui-accordion-header-icon {
+        right: 15px;
+        top: 8px;
+        width: 28px;
+        height: 26px;
+    }
+    #banner .banner-text .title {
+        font-size: 20px;
+        color: #FFffff;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    #banner .oc .item {
+        width: 140px;
+        height: 40px;
+    }
+    #banner .oc .item img {
+        width: 100px;
+        height: 30px;
+    }
+    #banner .img img {
+        height: 200px;
+    }
+    footer .box-two .box-header {
+        width: 100%;
+    }
+
+}
+@media (max-width: 340px) {
+
+}
