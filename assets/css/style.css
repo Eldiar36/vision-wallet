@@ -124,7 +124,6 @@ main {
     top: -200%;
     transition: 0.4s;
     background: rgba(000, 000, 000, 0.9);
-
 }
 .burger-menu_nav ul {
     display: flex;
