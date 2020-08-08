@@ -275,10 +275,28 @@ header .header-nav .header-nav_box ul .top-menu:hover:after{
 header .header-nav .header-nav_box ul .top-menu:hover a {
     color: #FFffff;
 }
-header .header-nav .header-nav_box ul li:hover .submenu{
-    transform: translateY(15px);
+header .header-nav .header-nav_box ul li:hover .submenu,
+header .header-top .language li:hover .submenu{
+    transform: translateY(0);
 }
-header .header-nav .header-nav_box ul li .submenu {
+header .header-top .language li {
+    position: relative;
+}
+header .header-top .language li .submenu {
+    transform: translateY(-500%);
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    background: #FFffff;
+    cursor: pointer;
+    padding: 7px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px 0 rgba(127, 133, 141, 0.4);
+    border-radius: 4px;
+}
+header .header-nav .header-nav_box ul li .submenu{
     position: absolute;
     left: 0;
     z-index: 999;
@@ -424,7 +442,12 @@ header .header-nav .header-nav_box ul li a {
 }
 #home .box-img .video .text {
     margin-right: 20px;
-
+}
+#home .box-img .video .popup-youtube {
+    transition: .4s;
+}
+#home .box-img .video .popup-youtube:hover {
+    transform: scale(1.2);
 }
 #home .box-img .video .text a {
     color: #0e5dff;
@@ -435,6 +458,7 @@ header .header-nav .header-nav_box ul li a {
     color: #222426;
     font-size: 20px;
 }
+
 #about {
     padding: 52px 0 0 0;
     background: #f6f7fb;
