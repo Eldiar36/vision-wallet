@@ -803,8 +803,11 @@
     #currency .row-1 {
         margin-bottom: 0;
     }
-    #currency .row-1 .item img.one{
-        width: 45px;
+    #currency .item{
+        height: 75px;
+    }
+    #currency .row-1 .item img.one {
+        width: 30px;
     }
     #currency .row-2 {
         display: flex;
@@ -815,8 +818,24 @@
         margin-right: 0;
         width: 45%;
     }
+    #currency .row-1 .item img {
+        width: 69%;
+    }
     #currency .row-2 .item img {
-        width: 90%;
+        width: 50%;
+    }
+    #home .box-body .link .link-box .text p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    #home .box-body .link .link-box{
+        margin-bottom: 20px;
+    }
+    #home .box-body .link .link-box .text a {
+        font-size: 14px;
+    }
+    .container {
+        padding: 0 15px;
     }
 
 }
@@ -825,6 +844,17 @@
     #banner .oc .item img {
         width: 70px;
         height: 25px;
+    }
+    #home .box-body .link .link-box:first-child {
+        margin-right: 0;
+    }
+    #home .box-body .link .link-box .text p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    #home .box-body .link .link-box .text a {
+        font-size: 13px;
     }
 }
 @media (max-width: 340px) {
