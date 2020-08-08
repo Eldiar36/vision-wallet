@@ -155,16 +155,13 @@ main {
 .burger-menu_active  .burger-menu_nav {
     top: 0;
 }
-.burger-menu_nav .search-block {
-    background: #ffffff;
-    height: 40px;
-}
-.burger-menu_link {
-
+.burger-menu_nav ul li .burger-menu_link:hover {
+    border-bottom: 1px solid #FFffff;
 }
 .burger-menu_link:hover,
 .burger-menu_link:focus {
     color: #ffffff;
+    font-weight: 800;
 }
 .burger-menu_link.line {
     text-decoration-line: underline;
@@ -226,6 +223,9 @@ header .header-top .header-top_box .account .login {
     color: #757c8a;
     font-size: 16px;
     margin-right: 65px;
+}
+header .header-top .header-top_box .account .login:hover{
+    font-weight: 600;
 }
 header .header-top .header-top_box .account .signup img,
 header .header-top .header-top_box .account .login img {
@@ -314,9 +314,25 @@ header .header-nav .header-nav_box ul li .submenu li {
     margin: 0;
     padding: 0 0 4px 0;
 }
+header .header-nav .header-nav_box ul li:hover {
+    font-weight: 700;
+}
+header .header-nav .header-nav_box ul li .submenu li:hover a {
+    font-weight: 800;
+}
 header .header-nav .header-nav_box ul li a {
     font-size: 16px;
     color: #757c8a;
+}
+header .header-top .header-top_box .language li img {
+    transition: .4s ;
+}
+header .header-top .header-top_box .language li:hover img {
+    transform: rotate(180deg);
+}
+header .header-top .header-top_box .language .top-menu .submenu li:hover{
+    color: #1b66ff;
+    font-weight: 600;
 }
 #home {
     padding: 37px 0 116px 0;

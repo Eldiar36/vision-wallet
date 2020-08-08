@@ -45,7 +45,10 @@
         padding: 16px 0 20px 10px;
     }
     header .header-nav .header-nav_box ul .top-menu:after {
-        right: 2px;
+        right: 6px;
+    }
+    header .header-nav .header-nav_box ul li .submenu {
+        padding: 20px 17px;
     }
     #investments .box-footer .text a {
         color: #558cfe;
@@ -145,18 +148,22 @@
     }
     #currency .row-1 {
         flex-wrap: wrap;
-       justify-content: space-between;
+       justify-content: flex-start;
     }
     #currency .row-1 .item {
         width: 30%;
         margin-bottom: 30px;
+        margin-right: auto;
+    }
+    #currency .row-1 .item:nth-child(4){
+        margin-right: 20px;
     }
     #currency .row-2{
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     #currency .row-2 .item {
-        margin-right: 0;
+        margin-right: auto;
         margin-bottom: 20px;
         width: 30%;
     }
@@ -445,6 +452,21 @@
     }
     #currency {
         padding: 40px 0 40px 0;
+    }
+    #currency .row-1,
+    #currency .row-2{
+        justify-content: space-between;
+    }
+    #currency .row-1 .item{
+        width: 45%;
+        margin-right: 0;
+    }
+    #currency .row-1 .item:nth-child(4){
+        margin-right: 0;
+    }
+    #currency .row-2 .item{
+        width: 45%;
+        margin-right: 0;
     }
     #investments {
         padding: 30px 0;
@@ -836,6 +858,9 @@
     }
     .container {
         padding: 0 15px;
+    }
+    #investments .button {
+        width: 100%;
     }
 
 }
