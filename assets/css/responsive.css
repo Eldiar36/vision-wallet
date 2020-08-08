@@ -47,6 +47,9 @@
     header .header-nav .header-nav_box ul .top-menu:after {
         right: 6px;
     }
+    #why-vision .program-box .text-box {
+        padding-bottom: 30px;
+    }
     header .header-nav .header-nav_box ul li .submenu {
         padding: 20px 17px;
     }

@@ -578,19 +578,12 @@ header .header-top .header-top_box .language .top-menu .submenu li:hover{
 }
 #currency .row-1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 45px;
 }
-#currency .row-2 {
-    display: flex;
-    justify-content: center;
-}
-#currency .row-2 .item{
-    margin-right: 50px;
-}
-#currency .row-2 .item.last {
-    margin-right: 0;
-}
+
+
 #currency  .item {
     display: flex;
     align-items: center;
@@ -600,6 +593,7 @@ header .header-top .header-top_box .language .top-menu .submenu li:hover{
     background-color: rgba(28, 175, 249, 0);
     width: 196px;
     height: 96px;
+    margin-bottom: 30px;
 }
 #currency .row-1 .item img {
     width: auto;
